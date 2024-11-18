@@ -1,0 +1,80 @@
+.container {
+    background-color: grey;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.name {
+    color: white;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.nav1{
+    text-decoration: none;
+}
+.nav a {
+    color: white;
+}
+.picture {
+    float: left;
+    background-color: grey;
+    height: 100px;
+    width: 100px;
+    color: white;
+    margin-top: -15px;
+}
+.main{
+    display: flex;   
+}
+.content {
+    height: 200px;
+    width: 70%;
+    background-color: red;
+    background-image: linear-gradient(to bottom left, rgb(240, 110, 132), rgb(227, 227, 19));
+    padding: 10px;
+}
+.bar {
+    display: grid;
+    background-color: greenyellow;
+    height: 200px;
+    width: 30%;
+    background-image: radial-gradient(pink, lightblue);
+    padding: 10px;
+}
+.bar ul {
+    list-style: none;
+    padding: 5px;
+}
+.box1 {
+    background-color:grey;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    border: 2px solid black;
+}
+.p {
+    position: absolute;
+    top: 50px;
+    left: 40px;
+}
+.span {
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 120px;
+    right: 80px;
+}
+button {
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    background: black;
+    color: white;
+    padding: 10px;
+}
